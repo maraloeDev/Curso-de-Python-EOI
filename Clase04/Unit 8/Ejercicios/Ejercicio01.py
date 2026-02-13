@@ -9,5 +9,5 @@ Q1. Declara la lista bts = ['V', 'J-Hope', 'RM', 'Jungkook', 'Jin', 'Jimin', 'Su
 
 bts = ['V', 'J-Hope', 'RM', 'Jungkook', 'Jin', 'Jimin', 'Suga']
 
-for _ in bts :
-    print(f"{bts}")
+for i in bts :
+    print(f"{i}")
