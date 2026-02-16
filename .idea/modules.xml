@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/00-APUNTES/00-APUNTES.iml" filepath="$PROJECT_DIR$/00-APUNTES/00-APUNTES.iml" />
+      <module fileurl="file://$PROJECT_DIR$/00-OPCIONALES/00-OPCIONALES.iml" filepath="$PROJECT_DIR$/00-OPCIONALES/00-OPCIONALES.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Curso-de-Python-EOI.iml" filepath="$PROJECT_DIR$/.idea/Curso-de-Python-EOI.iml" />
+    </modules>
+  </component>
+</project>
