@@ -1,14 +1,9 @@
 """
-Calcula la circunferencia y el area del circulo usando los operadores que hemos estudiado en la unidad
+Se dan una letra '1' y tres '0'.
+Utiliza estas dos para formar el número 1000.
+Aquí, solo se pueden usar operaciones de suma entre cadenas (strings), y la función int() se puede usar solo una vez.
 """
-import math
 
-r = int(input("Introdice el radio de la circunferencia"))
-pi = math.pi
-
-circunferencia = 2 * pi * r
-area = pi * pow(r,2)
-
-print(f"Radio {r}")
-print(f"La circunferencia del circulo es {circunferencia}")
-print(f"El area del cuadrado es {area}")
+letra1 = "1"
+letra2 = "0"
+print(int(letra1 + letra2 * 3))

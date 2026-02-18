@@ -1,3 +1,15 @@
+"""
+Escribe un programa que realice suma, resta, multiplicación y división.
+
+El programa debe imprimir el resultado de la operación entre dos enteros positivos
+
+basándose en un "número de operación" (1, 2, 3 o 4) ingresado por el usuario.
+
+Si se ingresa un número distinto a 1, 2, 3 o 4, debe imprimir: 'Entered an incorrect number' (Has ingresado un número incorrecto).
+
+Instrucción de entrada: Para ingresar los dos números, escribe uno, presiona "Enter" y escribe el otro.
+"""
+
 print("1) Addition    2) Subtraction    3) Multiplication    4) Division")
 
 operacion = int(input("Enter the desired number of operation : "))

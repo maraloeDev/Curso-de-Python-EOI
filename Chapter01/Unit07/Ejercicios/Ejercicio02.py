@@ -1,18 +1,10 @@
-""""
-Introduce una palabra y te dire si el vocal o consonante"""
+"""
+Escribe el siguiente programa que reciba dos números enteros a y b como entrada,
+determine si a es un múltiplo de b e imprima el resultado.
+"""
 
-letra = (input('Escribe una letra:')).lower()
+a = int(input("Introduce un numero (a): "))
+b = int(input("Introduce un numero (b): "))
 
-def es_vocal(letra):
-
-    if letra == 'a' or letra == 'e' or letra == 'i' or letra == 'o' or letra == 'u':
-
-        print(f'La letra {letra} es una vocal')
-
-    else:
-
-        print(f'La letra {letra} es una consonante')
-
-
-
-es_vocal(letra)
+es_multiplo = (a % b == 0)
+print(f"¿Es {a} múltiplo de {b}?: {es_multiplo}")

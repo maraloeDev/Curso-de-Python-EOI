@@ -1,8 +1,7 @@
 """
-Asigna los valores 30, 60 a las variables width y height, respectivamente
-Escribe un programa en el que uses esas 2 variables y busque el area del rectangulo mostrandolo en la terminal
+Asigna los valores $30$ y $60$ a las variables width (ancho) y height (alto).
+Escribe un programa que utilice estas dos variables para encontrar el área del rectángulo como se muestra abajo.
 """
-width = int(30)
-height = int(60)
-
+width = 30
+height = 60
 print(f"El area del rectangulo es {width * height}")

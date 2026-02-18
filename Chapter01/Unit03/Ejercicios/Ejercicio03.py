@@ -1,10 +1,16 @@
 """
-Usa la funcion int introduciendo el numero 100 y añadiendo la letra "50" y el numero 50
-Usa la funcion str introduciendo el resultado de la suma 5050
+$n!$ se define como $n * (n-1) * (n-2) * \dots * 2 * 1$.
+Encuentra $5!$ y $10!$ usando enteros y el operador $*$ y imprímelos como se muestra a continuación.
 """
 
-resultado_int = int("100") + 50
-print(resultado_int)
+# Cálculo de 5 factorial
+fact5 = 5 * 4 * 3 * 2 * 1
+print("Calculate the factorial.")
+print("5! =", fact5)
 
-resultado_str = str(5050)
-print(resultado_str)
+print() # Espacio en blanco
+
+# Cálculo de 10 factorial
+fact10 = 10 * 9 * 8 * 7 * 6 * 5 * 4 * 3 * 2 * 1
+print("Calculate the factorial.")
+print("10! =", fact10)
